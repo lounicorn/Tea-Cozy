@@ -1,0 +1,102 @@
+
+body {
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  margin-top: 0;
+}
+
+
+.nav-bar{
+  background-color: black;
+  position: fixed;
+  height: 69px;
+  z-index: 2;
+  width: 100%;
+  border-bottom: solid 1px seashell;
+  top: 0;
+  left: 0;
+}
+
+nav a{
+  color: seashell;
+  text-decoration: underline;
+  padding: 20px;
+  float: right;
+}
+
+.nav-bar img{
+  height: 50px;
+  float: left;
+  margin: 10px;
+}
+
+
+#mission-img{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height:700px;
+  width: 1200px;
+  margin: 60px auto;
+  display: inline-flex;
+  align-items: center;
+
+}
+
+.mission{
+  background-color: black;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#tea-month {
+  width: 1000px;
+  display: inline-block;
+  text-align: center;
+}
+
+.tea-img {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tea-img img{
+  width: 300px;
+  height: 200px;
+}
+
+#locations-container {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg);
+  background-position: center;
+  height:400px;
+  width: 1200px;
+  margin: 60px auto;
+  padding: 60px;
+}
+
+#location-boxes {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box{
+  background-color: black;
+  opacity:1;
+  width: 200px;
+  height: 200px;
+  margin: 15px 40px;
+  padding: 10px;
+  line-height: 1.5em;
+}
+
+footer {
+  height: 200px;
+}
+
+#copyright {
+  float: left;
+  padding-left: 20px;
+}
